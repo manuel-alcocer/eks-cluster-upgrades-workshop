@@ -67,7 +67,7 @@ spec:
           - name: CLUSTER_NAME
             value: eks-upgrades-workshop
           - name: AWS_REGION
-            value: 
+            value: us-west-2 
       container:
         image: public.ecr.aws/i9m4f0j6/eks-validate-image:9
         command: ["/bin/sh","-c"]
